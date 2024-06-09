@@ -1,0 +1,13 @@
+{% extends "cine/base.html" %}
+
+{% block title %}Una película{% endblock %}
+
+<h1>Información de la película</h1>
+{% block content %}
+  <p>{{ pelicula.titulo }}</p>
+  <p>{{ pelicula.anyo }}</p>
+  <p>{{ pelicula.descripcion }}</p>
+  <br><hr>
+  <a style="color:red" href="/">VOLVER</a>
+{% endblock %}
+

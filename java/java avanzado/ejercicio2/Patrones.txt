@@ -1,0 +1,27 @@
+---- Patrones Creacionales ----
+
+Singleton:
+    Restringe a una instancia por clase
+    Se usa en situaciones en las que solo quieres que un solo objeto ejecute ciertos métodos. Por ejemplo cuando se comparte un mismo recurso.
+
+Factory:
+    A partir de una clase se crean subclases y a la hora de crear el objeto se hace de la misma forma, siendo todo más homogéneo.
+    Parecido a polimorfismo?
+
+Builder:
+    Ayuda en la creación de objetos con muchos atributos en los cuales cada uno de ellos se establecen a través de un método si es necesario.
+
+Prototype:
+    Crea un mismo objeto que es clonado pero con pequeñas diferencias.
+
+---- Patrones Estructurales ----
+
+Decorador:
+    Sirve para modificar el comportamiento de una clase sin modificar su código.
+    
+Adaptador:
+    Sirve para adaptar código de una clase nueva incompatible con la interfaz ya establecida.
+
+Fachada:
+    Sirve para facilitar y minimizar la llamada a un método o conjunto de métodos escondiendo gran parte del comportamiento que hay detrás.
+

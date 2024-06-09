@@ -1,0 +1,39 @@
+
+body {
+    display: flex;
+}
+
+.izquierda {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.derecha {
+    background-color: greenyellow;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.item {
+    background-color:blueviolet;
+    min-width: 0.5rem;
+    min-height: 0.5srem;
+}
+
+@media (max-width: 640px) {
+    .izquierda {
+        
+        flex-direction: row;
+    }
+
+    body {
+        flex-direction: column-reverse;
+    }
+    
+}

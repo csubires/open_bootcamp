@@ -1,0 +1,24 @@
+{% extends "cine/base.html" %}
+
+{% block title %}Un Director{% endblock %}
+
+
+{% block content %}
+
+
+<p>{{ director.nombre }}</p>
+<p>{{ director.apellidos }}</p>
+<p>{{ director.pais }}</p>
+<p>{{ director.edad }}</p>
+
+<h1>Listado de películas del director</h1>
+<table>
+    {% for pelicula in director.pelicula_set.all %}
+    <tr>
+        <td> <a href='/unapelicula/{{pelicula.id}}'>{{ pelicula }}</a></td>
+    </tr>
+    {% endfor %}
+</table>
+<br><hr>
+<a style="color:red" href="/">VOLVER</a>
+{% endblock %}

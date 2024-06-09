@@ -1,0 +1,13 @@
+
+
+ul #elemento-1, ol #elemento-1 {
+    color: red;
+}
+
+#titulo > ul #elemento-1 {
+    font-size: 2rem;
+}
+
+#titulo > ol #elemento-1 {
+    font-size: 2rem;
+}

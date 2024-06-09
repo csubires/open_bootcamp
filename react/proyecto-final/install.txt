@@ -1,0 +1,41 @@
+1047  npm init -y
+ 1048  npm i --save @babel/cli
+ 1049  npm i --save @babel/preset-env
+ 1050  npm i --save @babel/preset-react
+ 1051  npm i --save-dev @babel/cli @babel/core @babel/preset-env @babel/preset-react
+ 1052  history | tail
+ 1053  npm i --save-dev babel/loader
+ 1054  npm i --save-dev babel-loader
+ 1055  npm i --save-dev css-loader
+ 1056  npm i --save-dev documentation
+ 1057  npm i --save-dev eslint
+ 1058  npm i --save-dev webpack webpack-cli webpack-dev-server
+ 1059* npm i 
+ 1060  npm i --save-dev html-webpack-plugin
+ 1061  npm i --save-dev mini-css-extract-plugin
+ 1062  npm i --save-dev file-loader source-map-loader
+ 1063  npm i --save react react-dom react-router-dom
+ 1064  npm i --save redux react-redux redux-saga
+ 1065  npm i --save-dev @babel/plugin-transform-modules-commonjs
+ 1066  npm i --save-dev @babel/plugin-transform-runtime
+ 1067  npm i --save axios bootstrap
+
+sudo npm i -g eslint
+
+user@zeus:~/Documentos/box/react/proyecto-final$ eslint --init
+You can also run this command directly using 'npm init @eslint/config'.
+✔ How would you like to use ESLint? · style
+✔ What type of modules does your project use? · esm
+✔ Which framework does your project use? · react
+✔ Does your project use TypeScript? · No / Yes
+✔ Where does your code run? · browser
+✔ How would you like to define a style for your project? · guide
+✔ Which style guide do you want to follow? · airbnb
+✔ What format do you want your config file to be in? · JSON
+Checking peerDependencies of eslint-config-airbnb@latest
+The config that you've selected requires the following dependencies:
+
+eslint-plugin-react@^7.28.0 eslint-config-airbnb@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.3 eslint-plugin-jsx-a11y@^6.5.1 eslint-plugin-react-hooks@^4.3.0
+✔ Would you like to install them now? · No / Yes
+✔ Which package manager do you want to use? · npm
+

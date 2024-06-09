@@ -1,0 +1,25 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+
+}
+
+.btn-modern {
+    min-width: 10vw;
+    min-height: 10vw;
+    margin: 10%;
+    background-color: cadetblue;
+    color: darkolivegreen;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px brown;
+    background-color: yellowgreen;
+    color: rebeccapurple;
+    transition: all 0.4s;
+} 
+

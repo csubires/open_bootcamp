@@ -1,0 +1,15 @@
+{% extends "cine/base.html" %}
+
+{% block title %}Cine{% endblock %}
+
+
+{% block content %}
+<h1>Listado de directores</h1>
+<table style="border: 1px black solid;">
+    {% for director in object_list %}
+        <tr>
+            <td><a href="/{{director.id}}">{{ director }}</a></td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}

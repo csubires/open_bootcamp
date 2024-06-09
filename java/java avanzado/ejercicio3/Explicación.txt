@@ -1,0 +1,6 @@
+Patrón Iterator aplicado al ejercicio 4 de Java Básico
+Para simular una coleción de smartdevices en un inventario de una tienda
+
+usar el ejercicio anterior para refactorizar y que la introdución de parametros
+se vea más estructurada
+
